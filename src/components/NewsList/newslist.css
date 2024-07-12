@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.heading {
+  padding-left: 50px;
+  font-family: 'Fresca', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .news-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}

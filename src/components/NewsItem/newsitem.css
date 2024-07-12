@@ -1,0 +1,39 @@
+.news-item {
+  background-color: #ececec;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.news-item:hover {
+  transform: scale(1.05);
+}
+
+.news-img {
+  width: 100%;
+  height: auto;
+}
+
+.news-item h3 {
+  margin: 15px 5px;
+  font-size: 1.25em;
+}
+
+.news-item p {
+  padding: 5px 15px 15px;
+  font-size: 1em;
+  color: #333333;
+}
+
+.news-item a {
+  color: #6d3001;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}

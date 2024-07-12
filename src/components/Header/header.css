@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 7px 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: 'Fresca', sans-serif;
+  color: #6d3001;
+}
+
+header input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  width: 40%;
+}
