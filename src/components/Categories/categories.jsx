@@ -36,8 +36,8 @@ const Categories = () => {
           <div className="carousel-news-items">
             {articles[category]?.slice(0, 4).map((article, index) => (
               <div key={index} className="carousel-news-item">
-                <h3><a href={article.url} target="_blank" rel="noreferrer">{article.title}</a></h3>
                 {article.urlToImage && <img src={article.urlToImage} alt={article.title} />}
+                <h3><a href={article.url} target="_blank" rel="noreferrer">{article.title}</a></h3>
                 <p>{article.description}</p>
             </div>
             ))}
